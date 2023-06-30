@@ -42,7 +42,7 @@ public class index extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 210, 110, 40));
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 210, 110, 40));
 
         admin.setBackground(new java.awt.Color(255, 204, 51));
         admin.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N

@@ -138,11 +138,23 @@ public class studentIndex extends javax.swing.JFrame {
 
         jLabel26.setText("Marks Obtained");
         jPanel1.add(jLabel26, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 10, -1, -1));
+
+        jTextField8.setEditable(false);
         jPanel1.add(jTextField8, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 30, 90, -1));
+
+        jTextField9.setEditable(false);
         jPanel1.add(jTextField9, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 60, 90, -1));
+
+        jTextField10.setEditable(false);
         jPanel1.add(jTextField10, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 90, 90, -1));
+
+        jTextField11.setEditable(false);
         jPanel1.add(jTextField11, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 120, 90, -1));
+
+        jTextField12.setEditable(false);
         jPanel1.add(jTextField12, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 150, 90, -1));
+
+        jTextField3.setEditable(false);
         jPanel1.add(jTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 180, 90, -1));
 
         jLabel3.setText("Total Marks Obtained");
