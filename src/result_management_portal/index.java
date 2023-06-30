@@ -33,7 +33,7 @@ public class index extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jButton1.setBackground(new java.awt.Color(255, 204, 51));
+        jButton1.setBackground(new java.awt.Color(255, 204, 102));
         jButton1.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/result_management_portal/icons8-student-20.png"))); // NOI18N
         jButton1.setText("Student");
@@ -44,7 +44,7 @@ public class index extends javax.swing.JFrame {
         });
         getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 210, 110, 40));
 
-        admin.setBackground(new java.awt.Color(255, 204, 51));
+        admin.setBackground(new java.awt.Color(255, 204, 102));
         admin.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         admin.setIcon(new javax.swing.ImageIcon(getClass().getResource("/result_management_portal/icons8-admin-20.png"))); // NOI18N
         admin.setText("Admin");
