@@ -27,3 +27,8 @@ Admin login
 Students registration section
 
 ![SRMS5](https://github.com/vickyvivek557/Student_Result_Management_System/assets/117736473/e8cd635c-4f08-4f64-99b1-c39c94e8d5a3)
+
+
+Addition of new result
+
+![SRMS6](https://github.com/vickyvivek557/Student_Result_Management_System/assets/117736473/2f0eff5c-d65f-44a1-bd64-db66112c6fca)
