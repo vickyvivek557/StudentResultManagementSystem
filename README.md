@@ -1,5 +1,5 @@
 # Student_Result_Management_System
-Technology Used
+Technology Used : -
 Java, JavaSwing, DBMS, SQL
 
 SCREENSHOTS.......
