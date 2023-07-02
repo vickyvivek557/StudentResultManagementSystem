@@ -8,5 +8,8 @@ SCREENSHOTS.......
 
 
 For Students Section
-
 ![SRMS2](https://github.com/vickyvivek557/Student_Result_Management_System/assets/117736473/8de58471-3861-4f83-9ab1-bcb8ad3aee85)
+
+
+Result of roll num 101 is shown below
+![SRMS3](https://github.com/vickyvivek557/Student_Result_Management_System/assets/117736473/c757dbc0-3467-4fa0-9bc3-cc1adf6bf25e)
