@@ -50,7 +50,7 @@
                   </Group>
                   <Component id="jButton6" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace min="0" pref="46" max="32767" attributes="0"/>
+              <EmptySpace min="0" pref="84" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -257,10 +257,10 @@
           <StringArray count="6">
             <StringItem index="0" value="Civil Engineering"/>
             <StringItem index="1" value="Nanotechnology"/>
-            <StringItem index="2" value="Mechanical Engineering"/>
+            <StringItem index="2" value="ME"/>
             <StringItem index="3" value="EEE"/>
             <StringItem index="4" value="EC"/>
-            <StringItem index="5" value="Biotechnology"/>
+            <StringItem index="5" value=" "/>
           </StringArray>
         </Property>
       </Properties>

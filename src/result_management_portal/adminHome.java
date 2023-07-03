@@ -138,7 +138,7 @@ public class adminHome extends javax.swing.JFrame {
 
         jLabel2.setText("Branch Name");
 
-        jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Civil Engineering", "Nanotechnology", "Mechanical Engineering", "EEE", "EC", "Biotechnology" }));
+        jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Civil Engineering", "Nanotechnology", "ME", "EEE", "EC", " " }));
         jComboBox2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jComboBox2ActionPerformed(evt);
@@ -200,7 +200,7 @@ public class adminHome extends javax.swing.JFrame {
                             .addComponent(jTextField3)
                             .addComponent(jTextField4)))
                     .addComponent(jButton6))
-                .addGap(0, 46, Short.MAX_VALUE))
+                .addGap(0, 84, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
