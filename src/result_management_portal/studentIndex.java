@@ -82,56 +82,56 @@ public class studentIndex extends javax.swing.JFrame {
 
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel8.setText("Computer");
-        jPanel1.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 30, -1, -1));
+        jLabel8.setText("Subject 1");
+        jPanel1.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 30, 100, -1));
 
-        jLabel9.setText("OS");
-        jPanel1.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 60, 54, -1));
+        jLabel9.setText("Subject 2");
+        jPanel1.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 60, 100, -1));
 
-        jLabel10.setText("DBMS");
-        jPanel1.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 90, 54, -1));
+        jLabel10.setText("Subject 3");
+        jPanel1.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 90, 100, -1));
 
-        jLabel11.setText("SQL");
-        jPanel1.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 120, 54, -1));
+        jLabel11.setText("Subject 4");
+        jPanel1.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 120, 100, -1));
 
-        jLabel12.setText("DSA");
-        jPanel1.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 150, 50, -1));
+        jLabel12.setText("Subject 5");
+        jPanel1.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 150, 100, -1));
 
         jLabel13.setText("Total Marks");
-        jPanel1.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 10, -1, -1));
+        jPanel1.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 10, -1, -1));
 
         jLabel14.setText("100");
-        jPanel1.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 30, 63, -1));
+        jPanel1.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 30, 63, -1));
 
         jLabel15.setText("100");
-        jPanel1.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 60, 63, -1));
+        jPanel1.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 60, 63, -1));
 
         jLabel16.setText("100");
-        jPanel1.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 90, 63, -1));
+        jPanel1.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 90, 63, -1));
 
         jLabel17.setText("100");
-        jPanel1.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 120, 63, -1));
+        jPanel1.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 120, 63, -1));
 
         jLabel18.setText("100");
-        jPanel1.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 150, 60, -1));
+        jPanel1.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 150, 60, -1));
 
         jLabel19.setText("Passing Marks");
-        jPanel1.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 10, -1, -1));
+        jPanel1.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 10, -1, -1));
 
         jLabel20.setText("35");
-        jPanel1.add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 30, 42, -1));
+        jPanel1.add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 30, 42, -1));
 
         jLabel21.setText("35");
-        jPanel1.add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 60, 42, -1));
+        jPanel1.add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 60, 42, -1));
 
         jLabel22.setText("35");
-        jPanel1.add(jLabel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 90, 42, -1));
+        jPanel1.add(jLabel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 90, 42, -1));
 
         jLabel23.setText("35");
-        jPanel1.add(jLabel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 120, 42, -1));
+        jPanel1.add(jLabel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 120, 42, -1));
 
         jLabel24.setText("35");
-        jPanel1.add(jLabel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 150, 40, -1));
+        jPanel1.add(jLabel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 150, 40, -1));
 
         jLabel25.setText("Subjects");
         jPanel1.add(jLabel25, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, -1, -1));
@@ -211,13 +211,36 @@ public class studentIndex extends javax.swing.JFrame {
     private void formComponentShown(java.awt.event.ComponentEvent evt) {//GEN-FIRST:event_formComponentShown
         // TODO add your handling code here:
         String rollno = jTextField2.getText();
+        String branchName = "";
         try{
             Class.forName("com.mysql.cj.jdbc.Driver");
             Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/nitkkr", "root", "Mysql.557.@#$");
             Statement st = con.createStatement();
-            ResultSet rs = st.executeQuery("select * from student inner join result where student.rollno = '"+rollno+"' and result.rollNumber = '"+rollno+"'");
+            ResultSet rs1 = st.executeQuery("select branchName from student where rollno = '"+rollno+"'");
+            
+            if(rs1.next()){
+                branchName = rs1.getString(1);
+            }
+        }
+        catch(Exception e){
+            JOptionPane.showMessageDialog(null, e.toString());
+        }
+        
+        
+        try{
+            Class.forName("com.mysql.cj.jdbc.Driver");
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/nitkkr", "root", "Mysql.557.@#$");
+            Statement st = con.createStatement();
+            
+            ResultSet rs = st.executeQuery("select * from student inner join result inner join subjects where student.rollno = '"+rollno+"' and result.rollNumber = '"+rollno+"' and subjects.branchname = '"+branchName+"'");
             
             if(rs.next()){
+                jLabel8.setText(rs.getString(15));
+                jLabel9.setText(rs.getString(16));
+                jLabel10.setText(rs.getString(17));
+                jLabel11.setText(rs.getString(18));
+                jLabel12.setText(rs.getString(19));
+                
                 jTextField4.setText(rs.getString(2));
                 jTextField5.setText(rs.getString(3));
                 jTextField1.setText(rs.getString(4));
@@ -279,6 +302,7 @@ public class studentIndex extends javax.swing.JFrame {
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
             java.util.logging.Logger.getLogger(studentIndex.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
